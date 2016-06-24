@@ -1,0 +1,367 @@
+/***********************
+ UK TV Guide Widget
+ © 2005-2010 Daniel Phillips
+ uktvwidget@googlemail.com
+
+***********************/
+body {
+font-family: georgia;
+color: #ffffff;
+margin: 0px;
+}
+
+table {
+border-style: none;
+border-width: 0px;
+border-collapse: collapse;
+width: 100%;
+}
+
+td {
+border-style: none;
+border-width: 0px;
+padding-top: 6px;
+padding-bottom: 10px;
+}
+
+tr {
+background-image: url(images/bluegrad.png);
+background-repeat: repeat-x;
+}
+
+tr.onnow {
+background-image: url(images/greengrad.png);
+background-repeat: repeat-x
+}
+
+td.time {
+font-family: verdana;
+text-align: right;
+font-size: 12px;
+padding-top: 8px;
+vertical-align: top;
+width: 40px;
+padding-right: 10px;
+}
+
+a.normalLink {
+color: #FFFF99;
+}
+
+a.opened {
+font-size: 18px;
+font-family: arial;
+font-weight:bold;
+text-decoration:none
+}
+
+a.opened:link {
+color: #FFFF99;
+}
+
+a.opened:active {
+color: #FFFF00;
+}
+
+a.opened:hover {
+color: #FFFFFF;
+}
+
+a.unopened {
+font-family: arial;
+color: #FFA517;
+text-decoration:none
+}
+
+a.unopened:active {
+color: #FFFF00;
+}
+
+a.unopened:hover {
+color: #FFFFFF;
+}
+
+p.episode {
+margin-top: 0px;
+font-family: arial;
+font-size: 14px;
+color: #FFFF99;
+}
+
+p.description {
+margin-top: 0px;
+font-size: 12px;
+font-family: verdana;
+}
+
+p.duration {
+font-style: italic;
+}
+
+p.category {
+font-family: verdana;
+font-weight:bold;
+margin-bottom: 0px;
+font-size: 13px;
+}
+
+p.nowChannelName {
+margin-top: 10px;
+margin-bottom: 0px;
+font-family: arial;
+font-size: 14px;
+color: #FFFF99;
+}
+
+p.error {
+margin-top: 0px;
+margin-bottom: 0px;
+color: #FF1111;
+font-size: 13px;
+font-family: arial;
+}
+
+p.linktext {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+img.prevLink {
+position: absolute;
+left: 1px;
+}
+
+img.nextLink {
+position: absolute;
+right: 1px;
+}
+
+p.nowSpacer {
+margin-top: 37px;
+}
+
+div#back {
+display: none;
+background-image: url("Reverse.png");
+height: 100%;
+}
+
+#waitscreen {
+display: none;
+}
+
+div#optionsBlock {
+position: absolute;
+top: 115px;
+left: 20px;
+width: 200px;
+text-align: center;
+}
+
+div#advancedBlock {
+	position: absolute;
+	top: 115px;
+	right: 20px;
+	width: 230px;
+	text-align: center;
+}
+
+div#helpContainer {
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	width: 420px;
+}
+
+div#helpMessage {
+	height: 50px;
+	font-size: 11px;
+	font-family: Charcoal;
+}
+
+div#exitButton {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+
+div.optionsTitleText {
+	font-size: 10px;
+	font-family: Gadget;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+div.donateText {
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: Gadget;
+	text-align: left;
+	color: white;
+}
+
+#listing {
+	position:absolute;
+	width: 400px;
+	height: 310px;
+	top: 65px;	
+	left:26px;
+	overflow:hidden;
+	background-image: url(images/transpGrey.png);
+	background-repeat: repeat;
+}
+
+div#favouriteChannels {
+height: 200px;
+width: 200px;
+overflow: auto;
+font-size: 11px;
+font-family:Optima;
+text-align: left;
+background-image: url(images/faveback.png);
+background-repeat: repeat;
+}
+
+div#widgetNameText {
+	position: relative;
+	top: 10px;
+	font-size: 25px;
+	font-family: Baskerville Old Face;
+	text-align: center;
+}
+
+div#myNameText {
+	position:relative;
+	top: 10px;
+	text-align: center;
+	font-size:12px;
+}
+
+div#front {
+	background-image: url("Default.png");
+	height: 100%;
+}
+
+div#statusDiv {
+position:absolute;
+left:20px;
+right: 20px;
+bottom:17px;
+overflow: none;
+font-size: 11px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left:3px;
+padding-right:3px;
+}
+
+div#channel_drop_text {
+position:absolute;
+left: 20px;
+top: 30px;
+width: 185px;
+height: 13px;
+z-index: 19;
+overflow: hidden;
+font-size: 10px;
+font-family: Lucida Grande;
+color: white;
+font-weight:bold;
+}
+
+div#date_drop_text {
+position:absolute;
+right: 67px;
+top: 30px;
+width: 150px;
+height: 13px;
+z-index: 19;
+overflow: hidden;
+font-size: 10px;
+font-family: Lucida Grande;
+color: white;
+font-weight:bold;
+}
+
+.refreshButton {
+position:absolute;
+right: 45px;
+bottom: 19px;
+}
+
+.channel_drop {
+position:absolute;
+left: 6px;
+top: 20px;
+}
+
+.channel_drop_ctrl {
+position:absolute;
+left: 18px;
+top: 25px;
+width: 220px;
+opacity: 0.0;
+z-index: 20;
+}
+
+.date_drop {
+position:absolute;
+right: 20px;
+top: 20px;
+}
+
+.date_drop_ctrl {
+position:absolute;
+left: 253px;
+top: 25px;
+width: 190px;
+opacity: 0.0;
+z-index: 21;
+}
+
+div#view_drop_title {
+	position:absolute;
+	top: 6px;
+	font-size: 10px;
+	font-family: Gadget;
+	left: 20px;
+	width: 210px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 5px;
+}
+
+div#date_drop_title {
+	position:absolute;
+	top: 6px;
+	font-size: 10px;
+	font-family: Gadget;
+	left: 253px;
+	width: 185px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 5px;
+}
+
+img#refreshButtonBackground {
+opacity: 0.4;
+display: none;
+}
+
+#listingScrollBar {
+    position: absolute;
+    top: 65px;
+    bottom: 50px;
+    right: 28px;
+    width: 19px;
+}
+
+#infoButton {
+    position:absolute;
+    right: 40px;
+    bottom: 32px;
+}

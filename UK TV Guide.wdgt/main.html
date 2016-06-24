@@ -1,0 +1,109 @@
+<HTML>
+<HEAD>
+<TITLE>TV Listings</TITLE>
+<style type="text/css">
+    @import "widgetstyles.css";
+</style>
+<script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleScrollArea.js' charset='utf-8'/>
+<script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleScrollbar.js' charset='utf-8'/>
+<script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleInfoButton.js' charset='utf-8'/>
+<script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleAnimator.js' charset='utf-8'/>
+<script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleButton.js' charset='utf-8'/>
+<script type='text/javascript' src='rbutton.js'></script>
+<script type='text/javascript' src='utils.js'></script>
+<script type='text/javascript' src='help.js'></script>
+<script type='text/javascript' src='model/FavouriteChannelsModel.js'></script>
+<script type='text/javascript' src='model/SelectedChannelModel.js'></script>
+<script type='text/javascript' src='model/SelectedDateModel.js'></script>
+<script type='text/javascript' src='support/ChannelControl.js'></script>
+<script type='text/javascript' src='support/DateControl.js'></script>
+<script type='text/javascript' src='guide.js'></script>
+</HEAD>
+<BODY onload="initWidget()">
+<div id="statusDiv">
+</div>
+<div id="front">
+    <div id= "control">
+		<div id= "channel_drop_text">
+		</div>
+		<div id= "date_drop_text">
+		</div>
+		<div id= "view_drop_title">
+			View Listing
+		</div>
+		<div id= "date_drop_title">
+			Listing Date
+		</div>
+		<img class="channel_drop" src="images/channels_drop.png">
+		<img class="date_drop" src="images/date_drop.png">
+			<form name="controls">
+				<select class= "channel_drop_ctrl" name="selected_channel" onchange="channelSelected()">
+				</select>
+				<select class= "date_drop_ctrl" name="selected_date" onchange="dateSelected()">
+				</select>
+			</form>
+	</div>
+	<div id="listing">
+	</div>
+	<div id="listingScrollBar">
+	</div>
+	<div id="refreshButtonDiv" onmousemove='rbuttonHilite(event);' onmouseout='rbuttonNoHilite(event);' onclick="javascript:refreshDisplay()">
+		<img id="refreshButtonBackground" class="refreshButton" src='file:///System/Library/WidgetResources/ibutton/white_rollie.png'>
+		<img class="refreshButton" src="images/refresh.gif">
+	</div>
+    <div id='infoButton'>
+    </div>
+</div>
+<div id="back">
+	<div id="widgetNameText">
+		UK TV Guide v1.3
+	</div>
+	<div id="myNameText">
+		A widget by <a class="normalLink" href="javascript:widget.openURL('mailto:uktvwidget@googlemail.com');">Daniel Phillips</a>
+	</div>
+	<div id="exitButton">
+	<form name="exitB">
+		<input name="done" type="button" value="Done" onClick="javascript:hidePrefs();" onmousemove='displayDoneMessage();' onmouseout='displayDefaultHelp();'>
+	</form>
+	</div>
+	<div id="helpContainer">
+		<div class="optionsTitleText">Help</div>
+		<div id="helpMessage"></div>
+	</div>
+	<div id="optionsBlock">
+		<div class="optionsTitleText">
+			Channels to display
+		</div>
+		<div id="favouriteChannels" onmousemove='displayChannelsMessage();' onmouseout='displayDefaultHelp();'>
+		</div>
+		<form name="favControls">
+			<input name= "SelAll" type="button" value="Select All" onClick="selectAllChannels()" onmousemove='displaySelAllMessage();' onmouseout='displayDefaultHelp();'>
+			<input name= "SelNone" type="button" value="Select None" onClick="selectNoChannels()" onmousemove='displaySelNoneMessage();' onmouseout='displayDefaultHelp();'>
+		</form>
+	</div>
+	<div id="advancedBlock">
+		<div class="optionsTitleText">
+			Advanced Options
+		</div>
+		<form name="advancedControls">
+			<input name="reloadC" type="button" value="Reload Channel List" onclick="javascript:refreshChannelsClicked();" onmousemove='displayRefChMessage();' onmouseout='displayDefaultHelp();'><br>
+			<input name="reloadL" type="button" value="Reload All Listings" onclick="javascript:refreshListings();" onmousemove='displayRefListMessage();' onmouseout='displayDefaultHelp();'>
+			<input name="versionCheck" type="button" value="Check for New Version" onclick="javascript:checkForNewVersion();" onmousemove='displayCheckVersionMessage();' onmouseout='displayDefaultHelp();'>
+		</form>
+		<div class="optionsTitleText">
+			Useful Links
+		</div>
+		<p class="linktext">
+			<a class="normalLink" href="javascript:widget.openURL('http://tvguidewidget.appspot.com/userguide.html');">User Guide</a></p>
+		<p class="linktext">
+			<a class="normalLink" href="javascript:widget.openURL('http://tvguidewidget.appspot.com/');">Widget Homepage</a></p>
+		<div class="donateText">
+			If you find the widget useful, please consider making a	donation to help cover the cost of development.  
+			<a class="normalLink" href="javascript:widget.openURL('http://tvguidewidget.appspot.com/donate.html');">Click here to donate</a>
+		</div>
+	</div>
+	<div id="favButtons">
+	</div>
+</div>
+</body>
+</html>

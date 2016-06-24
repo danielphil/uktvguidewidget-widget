@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651A5E56083152CF0030361C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651A5E55083152CF0030361C /* WebKit.framework */; };
+		652DE5DE0D0AB64B002FD7F2 /* libPluginLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CD4EF20CFF83D60009640D /* libPluginLib.a */; };
+		652DE5F60D0AB79B002FD7F2 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652DE5F50D0AB79B002FD7F2 /* Main.m */; };
+		658A7CBB092784CA00A8B629 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 658A7CBA092784CA00A8B629 /* MainMenu.nib */; };
+		658A7CBD0927850D00A8B629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A7CBC0927850D00A8B629 /* main.m */; };
+		658A7CCC092785C700A8B629 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		658A7CE10927868000A8B629 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651A5E55083152CF0030361C /* WebKit.framework */; };
+		658A7CE709278B0700A8B629 /* HarnessGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A7CE609278B0700A8B629 /* HarnessGUI.m */; };
+		65928F5A0D0AB00D005C5F76 /* TVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 65928F590D0AB00D005C5F76 /* TVPlugin.m */; };
+		65A0FB940D2E4C5300584810 /* ListingFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF145C0D2D83BE0093224F /* ListingFetcher.m */; };
+		65A0FBA30D2E4C8600584810 /* Programme.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF13E50D2D45E20093224F /* Programme.m */; };
+		65CD4EF80CFF84460009640D /* Channels.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ED2AF0CFF8209003325E3 /* Channels.m */; };
+		65CD4EF90CFF84460009640D /* FaveXMLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ED2B10CFF8209003325E3 /* FaveXMLGenerator.m */; };
+		65CD4EFA0CFF84460009640D /* ListingXMLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ED2B30CFF8209003325E3 /* ListingXMLGenerator.m */; };
+		65CD4EFB0CFF84460009640D /* XMLChannelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ED2B50CFF8209003325E3 /* XMLChannelGenerator.m */; };
+		65CD4F060CFF86490009640D /* libPluginLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CD4EF20CFF83D60009640D /* libPluginLib.a */; };
+		65CD4F130CFF86F50009640D /* libPluginLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CD4EF20CFF83D60009640D /* libPluginLib.a */; };
+		65D348020943092700FE82CC /* ChannelSelector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65D347ED0943087A00FE82CC /* ChannelSelector.nib */; };
+		65D348030943092A00FE82CC /* ChannelSelector-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D347FD094308D600FE82CC /* ChannelSelector-Info.plist */; };
+		65D3480C0943095100FE82CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3480B0943095100FE82CC /* main.m */; };
+		65D3480F0943095F00FE82CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		65D348120943098100FE82CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651A5E55083152CF0030361C /* WebKit.framework */; };
+		65FC97AF0D0ABC32007A1CBB /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC97AD0D0ABC1B007A1CBB /* Utilities.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652DE5DC0D0AB63D002FD7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD4EF10CFF83D60009640D;
+			remoteInfo = PluginLib;
+		};
+		65CD4F070CFF86550009640D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD4EF10CFF83D60009640D;
+			remoteInfo = PluginLib;
+		};
+		65CD4F140CFF87060009640D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD4EF10CFF83D60009640D;
+			remoteInfo = PluginLib;
+		};
+		65D347FE094308F300FE82CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = TVPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		651A5E55083152CF0030361C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		652DE5D70D0AB634002FD7F2 /* PluginTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PluginTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652DE5F50D0AB79B002FD7F2 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = PluginTest/Main.m; sourceTree = "<group>"; };
+		654CD48C0D0AB1370021B6BC /* TVPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVPlugin_Prefix.pch; path = TvPlugin/TVPlugin_Prefix.pch; sourceTree = "<group>"; };
+		655ED2AE0CFF8209003325E3 /* Channels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Channels.h; path = PluginLib/Channels.h; sourceTree = "<group>"; };
+		655ED2AF0CFF8209003325E3 /* Channels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Channels.m; path = PluginLib/Channels.m; sourceTree = "<group>"; };
+		655ED2B00CFF8209003325E3 /* FaveXMLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaveXMLGenerator.h; path = PluginLib/FaveXMLGenerator.h; sourceTree = "<group>"; };
+		655ED2B10CFF8209003325E3 /* FaveXMLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FaveXMLGenerator.m; path = PluginLib/FaveXMLGenerator.m; sourceTree = "<group>"; };
+		655ED2B20CFF8209003325E3 /* ListingXMLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListingXMLGenerator.h; path = PluginLib/ListingXMLGenerator.h; sourceTree = "<group>"; };
+		655ED2B30CFF8209003325E3 /* ListingXMLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListingXMLGenerator.m; path = PluginLib/ListingXMLGenerator.m; sourceTree = "<group>"; };
+		655ED2B40CFF8209003325E3 /* XMLChannelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLChannelGenerator.h; path = PluginLib/XMLChannelGenerator.h; sourceTree = "<group>"; };
+		655ED2B50CFF8209003325E3 /* XMLChannelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLChannelGenerator.m; path = PluginLib/XMLChannelGenerator.m; sourceTree = "<group>"; };
+		658A7C930927838A00A8B629 /* TestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		658A7C950927838A00A8B629 /* TestHarness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestHarness-Info.plist"; sourceTree = "<group>"; };
+		658A7CBA092784CA00A8B629 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		658A7CBC0927850D00A8B629 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658A7CE509278B0700A8B629 /* HarnessGUI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HarnessGUI.h; sourceTree = "<group>"; };
+		658A7CE609278B0700A8B629 /* HarnessGUI.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HarnessGUI.m; sourceTree = "<group>"; };
+		65928F580D0AB00D005C5F76 /* TVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVPlugin.h; path = TvPlugin/TVPlugin.h; sourceTree = "<group>"; };
+		65928F590D0AB00D005C5F76 /* TVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVPlugin.m; path = TvPlugin/TVPlugin.m; sourceTree = "<group>"; };
+		65BF13E40D2D45E20093224F /* Programme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Programme.h; path = PluginLib/Programme.h; sourceTree = "<group>"; };
+		65BF13E50D2D45E20093224F /* Programme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Programme.m; path = PluginLib/Programme.m; sourceTree = "<group>"; };
+		65BF145B0D2D83BE0093224F /* ListingFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListingFetcher.h; path = PluginLib/ListingFetcher.h; sourceTree = "<group>"; };
+		65BF145C0D2D83BE0093224F /* ListingFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListingFetcher.m; path = PluginLib/ListingFetcher.m; sourceTree = "<group>"; };
+		65CD4EF20CFF83D60009640D /* libPluginLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D347ED0943087A00FE82CC /* ChannelSelector.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ChannelSelector.nib; path = ChannelSelector/ChannelSelector.nib; sourceTree = "<group>"; };
+		65D347FB094308D600FE82CC /* ChannelSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChannelSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D347FD094308D600FE82CC /* ChannelSelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChannelSelector-Info.plist"; sourceTree = "<group>"; };
+		65D3480B0943095100FE82CC /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChannelSelector/main.m; sourceTree = "<group>"; };
+		65FC97AC0D0ABC1B007A1CBB /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = PluginLib/Utilities.h; sourceTree = "<group>"; };
+		65FC97AD0D0ABC1B007A1CBB /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = PluginLib/Utilities.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* TVPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652DE5D50D0AB634002FD7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DE5DE0D0AB64B002FD7F2 /* libPluginLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658A7C910927838A00A8B629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD4F130CFF86F50009640D /* libPluginLib.a in Frameworks */,
+				658A7CCC092785C700A8B629 /* Cocoa.framework in Frameworks */,
+				658A7CE10927868000A8B629 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD4EF00CFF83D60009640D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D347F9094308D600FE82CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D3480F0943095F00FE82CC /* Cocoa.framework in Frameworks */,
+				65D348120943098100FE82CC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD4F060CFF86490009640D /* libPluginLib.a in Frameworks */,
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				651A5E56083152CF0030361C /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* TVPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				652DE5D30D0AB5FF002FD7F2 /* PluginTest */,
+				65928F570D0AAEB4005C5F76 /* TvPlugin */,
+				655ED2AD0CFF81EF003325E3 /* PluginLib */,
+				65D348040943093400FE82CC /* ChannelSelector */,
+				658A7CCF092785F900A8B629 /* TestHarness Code */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				65D347FD094308D600FE82CC /* ChannelSelector-Info.plist */,
+			);
+			name = TVPlugin;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				658A7C950927838A00A8B629 /* TestHarness-Info.plist */,
+				65D347ED0943087A00FE82CC /* ChannelSelector.nib */,
+				658A7CBA092784CA00A8B629 /* MainMenu.nib */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651A5E55083152CF0030361C /* WebKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* TVPlugin.bundle */,
+				658A7C930927838A00A8B629 /* TestHarness.app */,
+				65D347FB094308D600FE82CC /* ChannelSelector.app */,
+				65CD4EF20CFF83D60009640D /* libPluginLib.a */,
+				652DE5D70D0AB634002FD7F2 /* PluginTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				658A7CE509278B0700A8B629 /* HarnessGUI.h */,
+				658A7CE609278B0700A8B629 /* HarnessGUI.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		652DE5D30D0AB5FF002FD7F2 /* PluginTest */ = {
+			isa = PBXGroup;
+			children = (
+				652DE5F50D0AB79B002FD7F2 /* Main.m */,
+			);
+			name = PluginTest;
+			sourceTree = "<group>";
+		};
+		655ED2AD0CFF81EF003325E3 /* PluginLib */ = {
+			isa = PBXGroup;
+			children = (
+				65BF145B0D2D83BE0093224F /* ListingFetcher.h */,
+				65BF145C0D2D83BE0093224F /* ListingFetcher.m */,
+				65BF13E40D2D45E20093224F /* Programme.h */,
+				65BF13E50D2D45E20093224F /* Programme.m */,
+				655ED2AE0CFF8209003325E3 /* Channels.h */,
+				655ED2AF0CFF8209003325E3 /* Channels.m */,
+				655ED2B00CFF8209003325E3 /* FaveXMLGenerator.h */,
+				655ED2B10CFF8209003325E3 /* FaveXMLGenerator.m */,
+				655ED2B20CFF8209003325E3 /* ListingXMLGenerator.h */,
+				655ED2B30CFF8209003325E3 /* ListingXMLGenerator.m */,
+				655ED2B40CFF8209003325E3 /* XMLChannelGenerator.h */,
+				655ED2B50CFF8209003325E3 /* XMLChannelGenerator.m */,
+				65FC97AC0D0ABC1B007A1CBB /* Utilities.h */,
+				65FC97AD0D0ABC1B007A1CBB /* Utilities.m */,
+			);
+			name = PluginLib;
+			sourceTree = "<group>";
+		};
+		658A7CCF092785F900A8B629 /* TestHarness Code */ = {
+			isa = PBXGroup;
+			children = (
+				658A7CBC0927850D00A8B629 /* main.m */,
+			);
+			name = "TestHarness Code";
+			sourceTree = "<group>";
+		};
+		65928F570D0AAEB4005C5F76 /* TvPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				654CD48C0D0AB1370021B6BC /* TVPlugin_Prefix.pch */,
+				65928F580D0AB00D005C5F76 /* TVPlugin.h */,
+				65928F590D0AB00D005C5F76 /* TVPlugin.m */,
+			);
+			name = TvPlugin;
+			sourceTree = "<group>";
+		};
+		65D348040943093400FE82CC /* ChannelSelector */ = {
+			isa = PBXGroup;
+			children = (
+				65D3480B0943095100FE82CC /* main.m */,
+			);
+			name = ChannelSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65CD4EEE0CFF83D60009640D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		652DE5D60D0AB634002FD7F2 /* PluginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652DE5EA0D0AB68D002FD7F2 /* Build configuration list for PBXNativeTarget "PluginTest" */;
+			buildPhases = (
+				652DE5D40D0AB634002FD7F2 /* Sources */,
+				652DE5D50D0AB634002FD7F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652DE5DD0D0AB63D002FD7F2 /* PBXTargetDependency */,
+			);
+			name = PluginTest;
+			productName = PluginTest;
+			productReference = 652DE5D70D0AB634002FD7F2 /* PluginTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		658A7C920927838A00A8B629 /* TestHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C64FF09A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "TestHarness" */;
+			buildPhases = (
+				658A7C8F0927838A00A8B629 /* Resources */,
+				658A7C900927838A00A8B629 /* Sources */,
+				658A7C910927838A00A8B629 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD4F150CFF87060009640D /* PBXTargetDependency */,
+			);
+			name = TestHarness;
+			productName = TestHarness;
+			productReference = 658A7C930927838A00A8B629 /* TestHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65CD4EF10CFF83D60009640D /* PluginLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD4EF60CFF83F40009640D /* Build configuration list for PBXNativeTarget "PluginLib" */;
+			buildPhases = (
+				65CD4EEE0CFF83D60009640D /* Headers */,
+				65CD4EEF0CFF83D60009640D /* Sources */,
+				65CD4EF00CFF83D60009640D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginLib;
+			productName = PluginLib;
+			productReference = 65CD4EF20CFF83D60009640D /* libPluginLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65D347FA094308D600FE82CC /* ChannelSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C650309A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "ChannelSelector" */;
+			buildPhases = (
+				65D347F7094308D600FE82CC /* Resources */,
+				65D347F8094308D600FE82CC /* Sources */,
+				65D347F9094308D600FE82CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D347FF094308F300FE82CC /* PBXTargetDependency */,
+			);
+			name = ChannelSelector;
+			productName = ChannelSelector;
+			productReference = 65D347FB094308D600FE82CC /* ChannelSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5B49AC048680CD000E48DA /* TVPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654C64FB09A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "TVPlugin" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD4F080CFF86550009640D /* PBXTargetDependency */,
+			);
+			name = TVPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = TVPlugin;
+			productReference = 8D5B49B6048680CD000E48DA /* TVPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 654C650709A75D7300DF5A68 /* Build configuration list for PBXProject "TVPlugin" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* TVPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* TVPlugin */,
+				658A7C920927838A00A8B629 /* TestHarness */,
+				65D347FA094308D600FE82CC /* ChannelSelector */,
+				65CD4EF10CFF83D60009640D /* PluginLib */,
+				652DE5D60D0AB634002FD7F2 /* PluginTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658A7C8F0927838A00A8B629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658A7CBB092784CA00A8B629 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D347F7094308D600FE82CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D348020943092700FE82CC /* ChannelSelector.nib in Resources */,
+				65D348030943092A00FE82CC /* ChannelSelector-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652DE5D40D0AB634002FD7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DE5F60D0AB79B002FD7F2 /* Main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658A7C900927838A00A8B629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658A7CBD0927850D00A8B629 /* main.m in Sources */,
+				658A7CE709278B0700A8B629 /* HarnessGUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD4EEF0CFF83D60009640D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A0FBA30D2E4C8600584810 /* Programme.m in Sources */,
+				65A0FB940D2E4C5300584810 /* ListingFetcher.m in Sources */,
+				65FC97AF0D0ABC32007A1CBB /* Utilities.m in Sources */,
+				65CD4EF80CFF84460009640D /* Channels.m in Sources */,
+				65CD4EF90CFF84460009640D /* FaveXMLGenerator.m in Sources */,
+				65CD4EFA0CFF84460009640D /* ListingXMLGenerator.m in Sources */,
+				65CD4EFB0CFF84460009640D /* XMLChannelGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D347F8094308D600FE82CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D3480C0943095100FE82CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65928F5A0D0AB00D005C5F76 /* TVPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652DE5DD0D0AB63D002FD7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD4EF10CFF83D60009640D /* PluginLib */;
+			targetProxy = 652DE5DC0D0AB63D002FD7F2 /* PBXContainerItemProxy */;
+		};
+		65CD4F080CFF86550009640D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD4EF10CFF83D60009640D /* PluginLib */;
+			targetProxy = 65CD4F070CFF86550009640D /* PBXContainerItemProxy */;
+		};
+		65CD4F150CFF87060009640D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD4EF10CFF83D60009640D /* PluginLib */;
+			targetProxy = 65CD4F140CFF87060009640D /* PBXContainerItemProxy */;
+		};
+		65D347FF094308F300FE82CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5B49AC048680CD000E48DA /* TVPlugin */;
+			targetProxy = 65D347FE094308F300FE82CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652DE5D90D0AB634002FD7F2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginTest;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		652DE5DA0D0AB634002FD7F2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginTest;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		652DE5DB0D0AB634002FD7F2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginTest;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		654C64FC09A75D7300DF5A68 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TvPlugin/TVPlugin_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Development\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = TVPlugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		654C64FD09A75D7300DF5A68 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TVPlugin/TVPlugin_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Development\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = TVPlugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		654C64FE09A75D7300DF5A68 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TvPlugin/TVPlugin_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Development\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = TVPlugin;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Default;
+		};
+		654C650009A75D7300DF5A68 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestHarness-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TestHarness;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		654C650109A75D7300DF5A68 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestHarness-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TestHarness;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		654C650209A75D7300DF5A68 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestHarness-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TestHarness;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		654C650409A75D7300DF5A68 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ChannelSelector-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ChannelSelector;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		654C650509A75D7300DF5A68 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ChannelSelector-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ChannelSelector;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		654C650609A75D7300DF5A68 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ChannelSelector-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ChannelSelector;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		654C650809A75D7300DF5A68 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		654C650909A75D7300DF5A68 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		654C650A09A75D7300DF5A68 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+		65CD4EF30CFF83D60009640D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginLib;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		65CD4EF40CFF83D60009640D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginLib;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		65CD4EF50CFF83D60009640D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PluginLib;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652DE5EA0D0AB68D002FD7F2 /* Build configuration list for PBXNativeTarget "PluginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DE5D90D0AB634002FD7F2 /* Development */,
+				652DE5DA0D0AB634002FD7F2 /* Deployment */,
+				652DE5DB0D0AB634002FD7F2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		654C64FB09A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "TVPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C64FC09A75D7300DF5A68 /* Development */,
+				654C64FD09A75D7300DF5A68 /* Deployment */,
+				654C64FE09A75D7300DF5A68 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		654C64FF09A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "TestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C650009A75D7300DF5A68 /* Development */,
+				654C650109A75D7300DF5A68 /* Deployment */,
+				654C650209A75D7300DF5A68 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		654C650309A75D7300DF5A68 /* Build configuration list for PBXNativeTarget "ChannelSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C650409A75D7300DF5A68 /* Development */,
+				654C650509A75D7300DF5A68 /* Deployment */,
+				654C650609A75D7300DF5A68 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		654C650709A75D7300DF5A68 /* Build configuration list for PBXProject "TVPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654C650809A75D7300DF5A68 /* Development */,
+				654C650909A75D7300DF5A68 /* Deployment */,
+				654C650A09A75D7300DF5A68 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		65CD4EF60CFF83F40009640D /* Build configuration list for PBXNativeTarget "PluginLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD4EF30CFF83D60009640D /* Development */,
+				65CD4EF40CFF83D60009640D /* Deployment */,
+				65CD4EF50CFF83D60009640D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {getChannelName = id; }; 
+            CLASS = HarnessGUI; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {channelNameResult = id; channelNumber = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
